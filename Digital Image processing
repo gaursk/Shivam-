@@ -1,0 +1,11 @@
+clc;
+clear all;
+a=imread('cameraman.tif');%read the cameraman image
+figure(1)
+subplot(221)
+imshow(a)
+title('Orignal Image');
+b=fliplr(a);%horizontally flip the orignal image
+subplot(222)
+imshow(b)
+title('Horizontally flip Image');
